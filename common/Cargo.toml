@@ -29,7 +29,7 @@ glam = { version = "0.22", features = ["debug-glam-assert", "rand", "scalar-math
 heapless = "0.8.0"
 kodiak_macros = { path = "../macros" }
 log = {version = "0.4.17", optional = true}
-lz4_flex = { version = "=0.11.2", default-features = false, features = ["frame"], optional = true }
+lz4_flex = { version = "=0.11.6", default-features = false, features = ["frame"], optional = true }
 paste = "1.0.12"
 plasma_protocol = { path = "../plasma_protocol" }
 rand = { version = "0.8.5", default-features = false }
